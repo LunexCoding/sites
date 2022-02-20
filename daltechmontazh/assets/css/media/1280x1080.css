@@ -1,0 +1,162 @@
+@media (max-width: 1280px) and (max-height: 1080px) {
+
+    body {
+        font-size: 32px;
+    }
+
+    hr {
+        height: 5px;
+    }
+
+    /* Container */
+    .container {
+        width: 100%;
+        max-width: 1280px;
+    }
+
+    /* Intro */
+    .intro__suptitle {
+        font-size: 60px;
+    }
+
+    .intro__title {
+        font-size: 100px;
+    }
+
+    .intro__inner {
+        width: 100%;
+        max-width: 1220px;
+    }
+
+    /* Header */
+    .header__logo {
+        font-size: 50px;
+    }
+
+     /* Nav */
+     .nav {
+        font-size: 24px;
+    }
+
+    /* Stat */
+    .stat {
+       justify-content: center;
+    }
+
+    .stat__item {
+        flex: none;
+        width: 33.33333%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border: 0;
+    }
+
+    .stat__item:last-child {
+        border-right: 0;
+    }
+
+    .stat__count {
+        margin-bottom: 5px;
+        font-size: 52px;
+    }
+
+    .stat__text {
+        font-size: 34px;
+        font-weight: 300;
+    }
+
+    /* Services */
+    .services__item {
+        margin-top: 1%;
+    }
+
+    .services__title {
+        margin-bottom: 5px;
+        font-size: 28px;
+    }
+
+    .services__text {
+        font-size: 28px;
+    }
+
+    .services__icon {
+        left: 10px;
+        top: -10px;
+        width: 60px;
+        height: 60px;
+    }
+
+    /* Section */
+    .section {
+        padding: 40px 0;
+    }
+
+    .section__header {
+        max-width: 1220px;
+    }
+    
+    .section__title:after {
+        height: 3px;
+        width: 80px;
+    }
+
+    .section__text {
+        font-size: 28px;
+    }
+
+    .tab-content p {
+        font-size: 28px;
+    }
+
+    .section__title {
+        font-size: 55px;
+    }
+
+    .section__suptitle {
+        font-size: 70px;
+    }
+
+    /* slider */
+    .carousel-items {
+        height: 80%;
+    }
+
+    .carousel-wrapper {
+        padding-bottom: 35%;
+    }
+
+    .carousel-labels {
+        margin-bottom: 2%;
+    }
+    
+
+    /* Card */
+    .card__item {
+        width: 30%;
+    }
+
+    .card__img img {
+        min-height: 300px;
+    }
+
+    .card__img {
+        height: 300px;
+    }
+
+    .card__text__about {
+        font-size: 18px;
+    }
+    
+    /* Footer */
+    .footer {
+        padding-top: 65px;
+    }
+
+    /* Copyright */
+    .copyright {
+    padding: 20px 0;
+    border-top: 3px solid #e5e5e5;
+    font-size: 24px;
+    }
+
+}

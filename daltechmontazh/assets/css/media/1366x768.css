@@ -1,0 +1,194 @@
+@media (max-width: 1366px) and (max-height: 768px) {
+
+    body {
+        font-size: 30px;
+    }
+
+    hr {
+        height: 3px;
+    }
+
+    /* Container */
+    .container {
+        width: 100%;
+        max-width: 1366px;
+    }
+
+    .btn {
+        font-size: 30px;
+    }
+
+    /* Intro */
+    .intro__suptitle {
+        font-size: 50px;
+    }
+
+    .intro__title {
+        font-size: 80px;
+    }
+
+    .intro__inner {
+        width: 100%;
+        max-width: 1230px;
+    }
+
+    /* Header */
+    .header__logo {
+        margin-left: 20px;
+        font-size: 26px;
+    }
+
+     /* Nav */
+     .nav {
+        font-size: 16px;
+        margin-right: 20px;
+    }
+
+    /* slider */
+    .carousel-items {
+        height: 100%;
+    }
+
+    .carousel-labels {
+        margin-top: 5%;
+        margin-bottom: 5%;
+        padding: 0;
+    }
+
+    .carousel-labels label {
+        height: 20px;
+        width: 20px;
+    }
+
+    /* Stat */
+    .statistics {
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+
+    .stat {
+       justify-content: center;
+    }
+
+    .stat__item {
+        flex: none;
+        width: 33.33333%;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        border: 0;
+    }
+
+    .stat__item:last-child {
+        border-right: 0;
+    }
+
+    .stat__count {
+        margin-bottom: 5px;
+        font-size: 42px;
+    }
+
+    .stat__text {
+        font-size: 24px;
+        font-weight: 300;
+    }
+
+    /* Services */
+    .services__title {
+        margin-bottom: 5px;
+        font-size: 22px;
+    }
+
+    .services__text {
+        font-size: 20px;
+    }
+
+    .services__item {
+        margin-bottom: 40px;
+        margin-top: 20px;
+    }
+
+    .services__title {
+        font-size: 22px;
+    }
+
+    .services__icon {
+        left: 15px;
+        top: -5px;
+        width: 50px;
+        height: 50px;
+    }
+
+    /* Section */
+    .section {
+        padding: 20px 0 0 0;
+    }
+
+    .section_about {
+        margin-top: 20px;
+    }
+
+    .section__header {
+        max-width: 1230px;
+    }
+    
+    .section__title:after {
+        height: 3px;
+        width: 100px;
+        margin: 20px auto;
+    }
+
+    .section__text {
+        font-size: 24px;
+    }
+
+    /* acordion */
+    .tab {
+        font-size: 22px;
+    }
+
+    .tab-content p {
+        font-size: 20px;
+    }
+
+    .section__title {
+        font-size: 40px;
+    }
+
+    .section__suptitle {
+        font-size: 35px;
+    }
+
+    /* Card */
+    .card {
+        margin-top: 40px;
+    }
+
+    .card__item {
+        width: 30%;
+    }
+
+    .card__img img {
+        min-height: 250px;
+    }
+
+    .card__img {
+        height: 250px;
+    }
+
+    .card__text__about {
+        font-size: 16px;
+    }
+    
+    /* Footer */
+    .footer {
+        padding-top: 65px;
+    }
+
+    /* Copyright */
+    .copyright {
+    padding: 20px 0;
+    border-top: 3px solid #e5e5e5;
+    font-size: 24px;
+    }
+
+}   
