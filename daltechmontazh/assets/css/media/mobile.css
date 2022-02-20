@@ -64,7 +64,7 @@
     /* slider */
     .carousel-wrapper {
         padding: 0;
-        min-height: 105vh;
+        min-height: 60rem;
         justify-content: center;
     }
 
