@@ -1,0 +1,11 @@
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item__skills {
+    height: 100px;
+    width: 100px;
+    margin: 4px;
+}

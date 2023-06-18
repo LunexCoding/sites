@@ -1,0 +1,132 @@
+@media (min-width: 1024px) and (max-width: 1366px) {
+
+    body {
+        font-size: 30px;
+    }
+
+    hr {
+        height: 3px;
+    }
+
+    /* Container */
+    .container {
+        width: 100%;
+        max-width: 1366px;
+    }
+
+    .btn {
+        font-size: 30px;
+    }
+
+    /* Intro */
+    .intro__subtitle {
+        font-size: 50px;
+    }
+
+    .intro__title {
+        font-size: 80px;
+    }
+
+    .intro__title:after {
+        width: 120px;
+        height: 4px;
+        margin: 44px auto;
+    }
+
+    .intro__inner {
+        width: 100%;
+        max-width: 1230px;
+    }
+
+    /* Header */
+    .header__logo {
+        margin-left: 20px;
+        font-size: 26px;
+    }
+
+     /* Nav */
+     .nav {
+        font-size: 16px;
+        margin-right: 20px;
+    }
+
+    /* Section */
+    .section {
+        padding: 20px 0 0 0;
+    }
+
+    .section__header {
+        max-width: 1230px;
+    }
+
+    .section__title {
+        font-size: 40px;
+    }
+
+    .section__title:after {
+        height: 3px;
+        width: 100px;
+        margin: 20px auto;
+    }
+
+    .section__subtitle {
+        font-size: 35px;
+    }
+
+    .section__text {
+        font-size: 24px;
+    }
+
+    /* Card */
+    .card {
+        margin-top: 40px;
+    }
+
+    .card__item {
+        width: 33%;
+    }
+
+    .card__img img {
+        min-height: 350px;
+    }
+
+    .card__img {
+        height: 350px;
+    }
+
+    .card__text__about {
+        font-size: 20px;
+    }
+
+    /* slider */
+    .carousel-wrapper {
+        padding-bottom: 35%;
+    }
+
+    /* Statistics */
+    .stat__item {
+        width: 50%;
+    }
+
+    .git__stat {
+        width: 100%;
+    }
+
+    .git__snake {
+        width: 100%;
+        height: 120px;
+    }
+
+    /* Footer */
+    .footer {
+        padding-top: 65px;
+    }
+
+    /* Copyright */
+    .copyright {
+        padding: 20px 0;
+        border-top: 3px solid #e5e5e5;
+        font-size: 24px;
+    }
+
+}   

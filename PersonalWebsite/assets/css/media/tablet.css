@@ -1,0 +1,163 @@
+@media (min-width: 480px) and (max-width: 1023px) {
+
+    body {
+        font-size: 24px;
+    }
+
+    hr {
+        height: 3px;
+    }
+
+    /* Container */
+    .container {
+        width: 100%;
+    }
+
+    /* Intro */
+    .intro__subtitle {
+        font-size: 72px;
+        line-height: 1.2;
+        margin-bottom: 28px;
+    }
+
+    .intro__title {
+        font-size: 100px;
+        text-align: center;
+    }
+
+    .intro__title:after {
+        width: 100px;
+        height: 4px;
+    }
+
+    .intro__inner {
+        width: 100%;
+    }
+
+    /* Header */
+    .header__logo {
+        font-size: 35px;
+    }
+
+    .btn {
+        padding: 8px 30px;
+        font-size: 40px;
+    }
+
+    /* Header */
+    .header {
+        padding: 10px 0;
+    }
+
+    /* Nav */
+    .nav {
+        display: none;
+        width: 100%;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-image: linear-gradient(to right, #434343 0%, black 100%);
+    }
+
+    .nav.active {
+        display: block;
+    }
+
+    .nav__link {
+        display: block;
+        margin: 0;
+        padding: 8px 20px;
+    }
+
+    .nav-toggle {
+        display: block;
+    }
+
+    /* Statistics */
+    .stat__item {
+        width: 100%;
+    }
+
+    .git__stat {
+        width: 100%;
+    }
+
+    .git__snake {
+        width: 100%;
+    }
+
+    /* Services */
+    .skills {
+        justify-content: center;
+    }
+
+    /* Section */
+    .section {
+        padding: 40px 0;
+    }
+
+    .section__header {
+        max-width: 1230px;
+    }
+    
+    .section__title:after {
+        height: 3px;
+        width: 80px;
+    }
+
+    .section__text {
+        font-size: 24px;
+        padding-bottom: 20px;
+    }
+
+    .section__title {
+        font-size: 45px;
+    }
+
+    .section__subtitle {
+        font-size: 50px;
+    }
+
+    /* Slider */
+     .carousel-wrapper {
+        padding-bottom: 57%;
+    }
+
+    .carousel-labels {
+        margin-top: 5%;
+        margin-bottom: 5%;
+        padding: 0;
+    }
+
+    .carousel-label label {
+        width: 30px;
+        height: 30px;
+        top: 10%;
+    }
+
+    /* Card */
+    .card__item {
+        width: 33%;
+    }
+
+    .card__img {
+        min-height: 340px;
+    }
+
+    .card__text__about {
+        margin: -10px  0;
+        font-size: 16px;
+    }
+
+    /* Footer */
+    .footer {
+        padding-top: 65px;
+    }
+
+    /* Copyright */
+    .copyright {
+        padding: 20px 0;
+        border-top: 3px solid #e5e5e5;
+        font-size: 24px;
+    }
+}
