@@ -104,7 +104,25 @@
     }
 
     .stat__item {
-        padding: 30px 25px;
+        width: 50%;
+    }
+
+    .git__stat {
+        width: 100%;
+        height: 365px;
+    }
+
+    .git__snake {
+        width: 100%;
+        height: 350px;
+    }
+
+    .stat__item:nth-child(2) {
+        display: none;
+    }
+
+    .stat__item:nth-child(4) {
+        width: 100%;
     }
 
     /* Services */
@@ -161,11 +179,6 @@
 
     .tab-content p {
         font-size: 32px;
-    }
-
-    /* Footer */
-    .footer {
-        padding-top: 130px;
     }
 
     /* Copyright */

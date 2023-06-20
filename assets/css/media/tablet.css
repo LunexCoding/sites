@@ -86,6 +86,10 @@
         width: 100%;
     }
 
+     .stat__item:nth-child(4) {
+        display: none;
+    }
+
     /* Services */
     .skills {
         justify-content: center;
@@ -147,11 +151,6 @@
     .card__text__about {
         margin: -10px  0;
         font-size: 16px;
-    }
-
-    /* Footer */
-    .footer {
-        padding-top: 65px;
     }
 
     /* Copyright */

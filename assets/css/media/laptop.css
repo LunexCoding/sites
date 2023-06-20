@@ -100,7 +100,7 @@
 
     /* slider */
     .carousel-wrapper {
-        padding-bottom: 35%;
+        padding-bottom: 36%;
     }
 
     /* Statistics */
@@ -110,16 +110,19 @@
 
     .git__stat {
         width: 100%;
+        height: 235px;
     }
 
     .git__snake {
         width: 100%;
-        height: 120px;
     }
 
-    /* Footer */
-    .footer {
-        padding-top: 65px;
+    .stat__item:nth-child(2) {
+        display: none;
+    }
+
+    .stat__item:nth-child(4) {
+        width: 100%;
     }
 
     /* Copyright */
